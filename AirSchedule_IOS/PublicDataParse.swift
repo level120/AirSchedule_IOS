@@ -73,6 +73,11 @@ struct AirInfo {
         self.schAirCode = schAirCode
     }
     
+    /*
+        공공데이터 포털 조회 시 한 번에 10개의 xml만 반환
+        10개 단위로 이동이 가능하며, &pageNo=Number로 이동가능
+        (ex, &pageNo=1)
+     */
     func url() -> String {
         return "\(urls["status"]!)?ServiceKey=\(serviceKey)&schStTime=\(schStTime)&schEdTime=\(schEdTime)&schLineType=\(schLineType)&schIOType=\(schIOType)&schAirCode=\(schAirCode)"
     }
