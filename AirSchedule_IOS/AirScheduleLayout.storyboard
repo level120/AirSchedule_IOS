@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mark Simonson - Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+        </array>
+        <array key="Proxima-Nova-Thin.ttf">
+            <string>ProximaNovaT-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Designable View Controller-->
+        <scene sceneID="ccw-jN-mlr">
+            <objects>
+                <viewController id="Hz4-VP-9DZ" customClass="DesignableViewController" customModule="AirSchedule_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="seG-Nj-6Yu" customClass="GradientView" customModule="AirSchedule_IOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4E-Kb-yYv" userLabel="lbClock">
+                                <rect key="frame" x="55" y="142" width="211" height="95"/>
+                                <accessibility key="accessibilityConfiguration" label="lbClock"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="hCH-J7-f7i"/>
+                                    <constraint firstAttribute="width" constant="202" id="lU3-RX-K5P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGr-pa-YzF">
+                                <rect key="frame" x="266" y="232" width="23" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8co-Qb-f6V"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="I11-Py-U40"/>
+                                    <constraint firstAttribute="width" constant="23" id="I4q-45-zjb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="23" id="jTg-Ia-Uj7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HVl-eG-Jo3">
+                                <rect key="frame" x="40" y="271" width="240" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xGr-pa-YzF" firstAttribute="leading" secondItem="rIl-GG-cXJ" secondAttribute="leading" constant="266" id="1XQ-zu-lME"/>
+                            <constraint firstItem="xGr-pa-YzF" firstAttribute="top" secondItem="rIl-GG-cXJ" secondAttribute="top" constant="212" id="3pH-5y-1od"/>
+                            <constraint firstItem="xGr-pa-YzF" firstAttribute="top" secondItem="rIl-GG-cXJ" secondAttribute="top" constant="212" id="AB2-41-IwB"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="xGr-pa-YzF" secondAttribute="bottom" constant="317" id="CsX-QE-Bjn"/>
+                            <constraint firstItem="rIl-GG-cXJ" firstAttribute="trailing" secondItem="xGr-pa-YzF" secondAttribute="trailing" constant="86" id="EmE-E0-ERd"/>
+                            <constraint firstItem="rIl-GG-cXJ" firstAttribute="trailing" secondItem="xGr-pa-YzF" secondAttribute="trailing" constant="86" id="K0x-FQ-0Y8"/>
+                            <constraint firstItem="N4E-Kb-yYv" firstAttribute="top" secondItem="rIl-GG-cXJ" secondAttribute="top" constant="122" id="aUc-j2-pV4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="xGr-pa-YzF" secondAttribute="bottom" id="hpX-Dn-7MM"/>
+                            <constraint firstItem="rIl-GG-cXJ" firstAttribute="bottom" secondItem="N4E-Kb-yYv" secondAttribute="bottom" id="tBh-w6-tiL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rIl-GG-cXJ"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="0.78431372549019607" green="0.24705882352941178" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" red="0.65098039215686276" green="0.16862745098039217" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="LightStatusBar" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bnt-JD-wi3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82.5" y="-212.32394366197184"/>
+        </scene>
+    </scenes>
+</document>

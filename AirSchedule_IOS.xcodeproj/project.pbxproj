@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		947B61962128152A00562A83 /* PublicDataParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947B61952128152A00562A83 /* PublicDataParse.swift */; };
 		947B61982128511200562A83 /* ParsingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947B61972128511200562A83 /* ParsingViewController.swift */; };
+		94AF7F7D2168D3A3004F70FA /* AirScheduleLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F7C2168D3A3004F70FA /* AirScheduleLayout.storyboard */; };
+		94AF7F802168D95C004F70FA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF7F7F2168D95C004F70FA /* GradientView.swift */; };
+		94AF7F822168DD55004F70FA /* DesignableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF7F812168DD55004F70FA /* DesignableViewController.swift */; };
+		94AF7F992168E17C004F70FA /* icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F922168E17C004F70FA /* icofont.ttf */; };
+		94AF7F9A2168E17C004F70FA /* SF-Pro-Text-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F932168E17C004F70FA /* SF-Pro-Text-Semibold.ttf */; };
+		94AF7F9B2168E17C004F70FA /* Mark Simonson - Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F942168E17C004F70FA /* Mark Simonson - Proxima Nova Regular.otf */; };
+		94AF7F9C2168E17C004F70FA /* Proxima-Nova-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F952168E17C004F70FA /* Proxima-Nova-Thin.ttf */; };
+		94AF7F9D2168E17C004F70FA /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F962168E17C004F70FA /* Proxima Nova Bold.otf */; };
+		94AF7F9E2168E17C004F70FA /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F972168E17C004F70FA /* MaterialIcons-Regular.ttf */; };
+		94AF7F9F2168E17C004F70FA /* SF-Pro-Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF7F982168E17C004F70FA /* SF-Pro-Text-Regular.ttf */; };
 		94CBCDBB2127FC47009FBE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBCDBA2127FC47009FBE96 /* AppDelegate.swift */; };
 		94CBCDBD2127FC47009FBE96 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBCDBC2127FC47009FBE96 /* FirstViewController.swift */; };
 		94CBCDBF2127FC47009FBE96 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBCDBE2127FC47009FBE96 /* SecondViewController.swift */; };
@@ -19,6 +29,16 @@
 /* Begin PBXFileReference section */
 		947B61952128152A00562A83 /* PublicDataParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicDataParse.swift; sourceTree = "<group>"; };
 		947B61972128511200562A83 /* ParsingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingViewController.swift; sourceTree = "<group>"; };
+		94AF7F7C2168D3A3004F70FA /* AirScheduleLayout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AirScheduleLayout.storyboard; sourceTree = "<group>"; };
+		94AF7F7F2168D95C004F70FA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		94AF7F812168DD55004F70FA /* DesignableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableViewController.swift; sourceTree = "<group>"; };
+		94AF7F922168E17C004F70FA /* icofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icofont.ttf; sourceTree = "<group>"; };
+		94AF7F932168E17C004F70FA /* SF-Pro-Text-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.ttf"; sourceTree = "<group>"; };
+		94AF7F942168E17C004F70FA /* Mark Simonson - Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		94AF7F952168E17C004F70FA /* Proxima-Nova-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Thin.ttf"; sourceTree = "<group>"; };
+		94AF7F962168E17C004F70FA /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		94AF7F972168E17C004F70FA /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		94AF7F982168E17C004F70FA /* SF-Pro-Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.ttf"; sourceTree = "<group>"; };
 		94CBCDB72127FC47009FBE96 /* AirSchedule_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSchedule_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CBCDBA2127FC47009FBE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94CBCDBC2127FC47009FBE96 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -39,9 +59,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94AF7F7E2168D927004F70FA /* Backgound */ = {
+			isa = PBXGroup;
+			children = (
+				94AF7F7F2168D95C004F70FA /* GradientView.swift */,
+				94AF7F812168DD55004F70FA /* DesignableViewController.swift */,
+			);
+			path = Backgound;
+			sourceTree = "<group>";
+		};
+		94AF7F832168E069004F70FA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				94AF7F922168E17C004F70FA /* icofont.ttf */,
+				94AF7F942168E17C004F70FA /* Mark Simonson - Proxima Nova Regular.otf */,
+				94AF7F972168E17C004F70FA /* MaterialIcons-Regular.ttf */,
+				94AF7F962168E17C004F70FA /* Proxima Nova Bold.otf */,
+				94AF7F952168E17C004F70FA /* Proxima-Nova-Thin.ttf */,
+				94AF7F982168E17C004F70FA /* SF-Pro-Text-Regular.ttf */,
+				94AF7F932168E17C004F70FA /* SF-Pro-Text-Semibold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		94CBCDAE2127FC47009FBE96 = {
 			isa = PBXGroup;
 			children = (
+				94AF7F832168E069004F70FA /* fonts */,
+				94AF7F7E2168D927004F70FA /* Backgound */,
 				94CBCDB92127FC47009FBE96 /* AirSchedule_IOS */,
 				94CBCDB82127FC47009FBE96 /* Products */,
 			);
@@ -58,6 +103,7 @@
 		94CBCDB92127FC47009FBE96 /* AirSchedule_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				94AF7F7C2168D3A3004F70FA /* AirScheduleLayout.storyboard */,
 				94CBCDBA2127FC47009FBE96 /* AppDelegate.swift */,
 				94CBCDBC2127FC47009FBE96 /* FirstViewController.swift */,
 				94CBCDBE2127FC47009FBE96 /* SecondViewController.swift */,
@@ -128,8 +174,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AF7F9C2168E17C004F70FA /* Proxima-Nova-Thin.ttf in Resources */,
+				94AF7F9F2168E17C004F70FA /* SF-Pro-Text-Regular.ttf in Resources */,
+				94AF7F9D2168E17C004F70FA /* Proxima Nova Bold.otf in Resources */,
 				94CBCDC42127FC49009FBE96 /* Assets.xcassets in Resources */,
+				94AF7F992168E17C004F70FA /* icofont.ttf in Resources */,
+				94AF7F9E2168E17C004F70FA /* MaterialIcons-Regular.ttf in Resources */,
+				94AF7F9A2168E17C004F70FA /* SF-Pro-Text-Semibold.ttf in Resources */,
 				94CBCDC22127FC47009FBE96 /* Main.storyboard in Resources */,
+				94AF7F7D2168D3A3004F70FA /* AirScheduleLayout.storyboard in Resources */,
+				94AF7F9B2168E17C004F70FA /* Mark Simonson - Proxima Nova Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AF7F822168DD55004F70FA /* DesignableViewController.swift in Sources */,
 				947B61982128511200562A83 /* ParsingViewController.swift in Sources */,
 				947B61962128152A00562A83 /* PublicDataParse.swift in Sources */,
+				94AF7F802168D95C004F70FA /* GradientView.swift in Sources */,
 				94CBCDBF2127FC47009FBE96 /* SecondViewController.swift in Sources */,
 				94CBCDBB2127FC47009FBE96 /* AppDelegate.swift in Sources */,
 				94CBCDBD2127FC47009FBE96 /* FirstViewController.swift in Sources */,
