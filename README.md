@@ -22,3 +22,6 @@
 * 디자인 설계 - 완료
 * `swift`로 레이아웃 구성 - 진행중
 * 배포 - 시작하지 않음
+
+
+**[IOS 디자인 템플릿 - Zeplin](https://zpl.io/adkjEkK)**
